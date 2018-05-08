@@ -1,0 +1,23 @@
+.catgory {
+    border: 1px solid;
+    color: turquoise;
+    padding: 20px;
+    background: grey;
+}
+
+.catgory button {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: navy;
+}
+
+table {
+    background: navy;
+}
+
+.form {
+    color: turquoise;
+    border: 1px solid;
+    padding: 20px;
+}

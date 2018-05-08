@@ -1,0 +1,11 @@
+#! /usr/bin/env node
+
+var scheduler = require('node-schedule');
+var excel = require('/app/bin/excel.js');
+
+
+function sayHello() {
+    console.log('Hello');
+    excel.genrate_excel();
+}
+sayHello();

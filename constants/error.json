@@ -1,0 +1,728 @@
+{
+    "en": {
+        "login": {
+            "email": {
+                "code": 101,
+                "status": "error",
+                "message": "Email is a required field. Please provide that and try again. "
+            },
+            "password": {
+                "code": 101,
+                "status": "error",
+                "message": "Password is a required field. Please provide that and try again."
+            },
+            "passwordNotValid": {
+                "code": 104,
+                "status": "error",
+                "message": "Your current password does not match with the password you provided. Please try again."
+            },
+            "userNotAuth": {
+                "code": 106,
+                "status": "error",
+                "message": "User is not authorized"
+            },
+            "noUserWithEmail": {
+                "code": 104,
+                "status": "error",
+                "message": "Invalid E-mail or password!"
+            },
+            "selectingdata": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for selecting data from user"
+            }
+        },
+        "register": {
+            "bodyisBlank": {
+                "code": 101,
+                "status": "error",
+                "message": "Body data can not blank"
+            },
+            "emailNotValid": {
+                "code": 105,
+                "status": "error",
+                "message": "Please enter a valid email address."
+            },
+            "username": {
+                "code": 101,
+                "status": "error",
+                "message": "username field is a required field. Please provide that and try again."
+            },
+            "password": {
+                "code": 101,
+                "status": "error",
+                "message": "password field is a required field.Please provide that and try again."
+            },
+            "email": {
+                "code": 101,
+                "status": "error",
+                "message": "email field is a required field. Please provide that and try again."
+            },
+            "phone": {
+                "code": 101,
+                "status": "error",
+                "message": "phone field is a required field. Please provide that and try again."
+            },
+            "region": {
+                "code": 101,
+                "status": "error",
+                "message": "region field is a required field. Please provide that and try again."
+            },
+            "passwordLength": {
+                "code": 101,
+                "status": "error",
+                "message": "Password length should be minimum 8 digit"
+            },
+            "alredyUser": {
+                "code": 104,
+                "status": "error",
+                "message": "There is already user with this email."
+            },
+            "saveUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for save new user"
+            }
+
+        },
+        "forgotPassword": {
+            "notFoudWithEmail": {
+                "code": 104,
+                "status": "error",
+                "message": "There is no user found with this email id"
+            }
+        },
+        "resetPassword": {
+            "oldPasswordRequired": {
+                "code": 101,
+                "status": "error",
+                "message": "Old password field is a required field. Please provide that and try again."
+            },
+            "newPasswordRequired": {
+                "code": 101,
+                "status": "error",
+                "message": "New password field is a required field. Please provide that and try again."
+            },
+            "passwordChange": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for password change"
+            },
+            "oldPassword": {
+                "code": 102,
+                "status": "error",
+                "message": "Old password is not valid"
+            },
+            "selectUserData": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for selecting user data"
+            }
+        },
+        "resetPasswordOTP": {
+            "otp": {
+                "code": 101,
+                "status": "error",
+                "message": "otp field is required"
+            },
+            "confPassword": {
+                "code": 101,
+                "status": "error",
+                "message": "confPassword field is requied"
+            },
+            "confPasswordMatch": {
+                "code": 101,
+                "status": "error",
+                "message": "confPassword is not match"
+            },
+            "UpdateUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for update user"
+            },
+            "otpNotMatch": {
+                "code": 101,
+                "status": "error",
+                "message": "OTP code not match"
+            },
+            "findUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for finding user"
+            }
+        },
+        "profileApproval": {
+            "updateStatus": {
+                "code": 102,
+                "status": "error",
+                "message": "Error in updatating status"
+            },
+            "userApproved": {
+                "code": 106,
+                "status": "error",
+                "message": "User is already approved"
+            },
+            "userPending": {
+                "code": 106,
+                "status": "error",
+                "message": "User is already pending"
+            },
+            "emailNotFound": {
+                "code": 104,
+                "status": "error",
+                "message": "Email not found from token"
+            }
+        },
+        "callLogs": {
+            "fieldRequired": {
+                "code": 101,
+                "status": "error",
+                "message": "Customer name or date or fromdate and todate field is required"
+            },
+            "selectData": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for selecting data from call logs"
+            }
+        },
+        "changeRegion": {
+            "code": 102,
+            "status": "error",
+            "message": "Error for change region"
+        },
+        "getAlluser": {
+            "code": 102,
+            "status": "error",
+            "message": "Error for get user data"
+        },
+        "getdataFromCust": {
+            "code": 102,
+            "status": "error",
+            "message": "Error for get data from customer"
+        },
+        "enter3Char": {
+            "code": 101,
+            "status": "error",
+            "message": "Enter atleast 3 character"
+        },
+        "addcallLog": {
+            "salesmanName": {
+                "code": 101,
+                "status": "error",
+                "message": "Salesman name is a required field. Please provide that and try again."
+            },
+            "salesmanId": {
+                "code": 101,
+                "status": "error",
+                "message": "Salesman id is a required field. Please provide that and try again."
+            },
+            "callType": {
+                "code": 101,
+                "status": "error",
+                "message": "callType is a required field. Please provide that and try again."
+            },
+            "visitSite": {
+                "code": 101,
+                "status": "error",
+                "message": "visitSite is a required field. Please provide that and try again."
+            },
+            "date": {
+                "code": 101,
+                "status": "error",
+                "message": "Date is a required field. Please provide that and try again."
+            },
+            "salesmanContact": {
+                "code": 101,
+                "status": "error",
+                "message": "Salesman contact is a required field. Please provide that and try again."
+            },
+            "customerName": {
+                "code": 101,
+                "status": "error",
+                "message": "Customer name is a required field. Please provide that and try again. "
+            },
+            "comment": {
+                "code": 101,
+                "status": "error",
+                "message": "Comment is a required field. Please provide that and try again. "
+            },
+            "location": {
+                "code": 101,
+                "status": "error",
+                "message": "location is a required field. Please provide that and try again. "
+            },
+            "vibe": {
+                "code": 101,
+                "status": "error",
+                "message": "vibe is a required field. Please provide that and try again."
+            },
+            "customerContact": {
+                "code": 101,
+                "status": "error",
+                "message": "Customer contact is a required field. Please provide that and try again."
+            },
+            "order": {
+                "code": 101,
+                "status": "error",
+                "message": "Order is a required field. Please provide that and try again."
+            },
+            "contact": {
+                "code": 101,
+                "status": "error",
+                "message": "Contact is a required field. Please provide that and try again."
+            },
+            "isCopyEmail": {
+                "code": 103,
+                "status": "error",
+                "message": "isCopyEmail is required field. Please provide that and try again."
+            },
+            "createRecord": {
+                "code": 102,
+                "status": "error",
+                "message": "Error while creating record"
+            },
+            "createCustomer": {
+                "code": 103,
+                "status": "error",
+                "message": "Internal server error : Error for create new customer"
+            },
+            "findCustomer": {
+                "code": 103,
+                "status": "error",
+                "message": "Internal server error : Error for find customer"
+            },
+            "insLocation": {
+                "code": 103,
+                "status": "error",
+                "message": "Internal server error : Error for insert location"
+            },
+            "findLocation": {
+                "code": 103,
+                "status": "error",
+                "message": "Internal server error : Error for find location"
+            },
+            "validId": {
+                "code": 103,
+                "status": "error",
+                "message": "Internal server error : Invalid CustomerId. CustomerId should be ObjectId"
+            }
+        },
+        "getcallbydate": {
+            "dateFormat": {
+                "code": 101,
+                "status": "error",
+                "message": "Date format must be DD-MMM-YYYY"
+            },
+            "recordNotfound": {
+                "code": 104,
+                "status": "error",
+                "message": "Record not found"
+            },
+            "currentUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for selecting current user"
+            },
+            "findCallLog": {
+                "code": 104,
+                "status": "error",
+                "message": "can not find call log"
+            },
+            "recordNotfoundWithDate": {
+                "code": 104,
+                "status": "error",
+                "message": "No record found with current date"
+            },
+            "findDatafromcallLog": {
+                "code": 103,
+                "status": "error",
+                "message": "Internal server Error: Error for find data from call log"
+            }
+        },
+        "getlocation": {
+            "customerLocaltionNotfound": {
+                "code": 104,
+                "status": "error",
+                "message": "Customer Location not found"
+            },
+            "customerLocaltion": {
+                "code": 103,
+                "status": "error",
+                "message": "Internal server error : Error for get customer Location"
+            }
+        },
+        "internalServer": {
+            "code": 103,
+            "status": "error",
+            "message": "Internal server error"
+        }
+
+    },
+    "fr": {
+        "login": {
+            "email": {
+                "code": 101,
+                "status": "error",
+                "message": "Le courrier électronique est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "password": {
+                "code": 101,
+                "status": "error",
+                "message": "Mot de passe est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "passwordNotValid": {
+                "code": 104,
+                "status": "error",
+                "message": "Mot de passe n'est pas valide!"
+            },
+            "userNotAuth": {
+                "code": 106,
+                "status": "error",
+                "message": "Utilisateur non autorisé"
+            },
+            "noUserWithEmail": {
+                "code": 104,
+                "status": "error",
+                "message": "Il n'y a pas trouvé avec l'utilisateur fourni ou nom d'utilisateur email"
+            },
+            "selectingdata": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur pour sélectionner des données de l'utilisateur"
+            },
+            "selectUser": {
+                "code": 102,
+                "status": "error",
+                "message": "erreur for selecting user"
+            }
+        },
+        "register": {
+            "bodyisBlank": {
+                "code": 101,
+                "status": "error",
+                "message": "les données du corps ne peut pas en blanc"
+            },
+            "emailNotValid": {
+                "code": 105,
+                "status": "error",
+                "message": "L'email n'est pas valide"
+            },
+            "username": {
+                "code": 101,
+                "status": "error",
+                "message": "champ nom d'utilisateur est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "password": {
+                "code": 101,
+                "status": "error",
+                "message": "mot de passe est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "email": {
+                "code": 101,
+                "status": "error",
+                "message": "champ email est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "phone": {
+                "code": 101,
+                "status": "error",
+                "message": "champ de téléphone est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "region": {
+                "code": 101,
+                "status": "error",
+                "message": "champ de la région est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "passwordLength": {
+                "code": 101,
+                "status": "error",
+                "message": "Le mot de passe doit être au minimum 8 chiffres"
+            },
+            "alredyUser": {
+                "code": 104,
+                "status": "error",
+                "message": "Il est déjà utilisateur avec cet e-mail"
+            },
+            "saveUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur pour sauver nouvel utilisateur"
+            },
+            "selectUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur lors de la sélection de l'utilisateur"
+            }
+        },
+        "forgotPassword": {
+            "notFoudWithEmail": {
+                "code": 104,
+                "status": "error",
+                "message": "Il n'y a aucun utilisateur trouvé avec cet identifiant e-mail"
+            }
+        },
+        "resetPassword": {
+            "oldPasswordRequired": {
+                "code": 101,
+                "status": "error",
+                "message": "champ Ancien mot de passe est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "newPasswordRequired": {
+                "code": 101,
+                "status": "error",
+                "message": "New password field is a required field. Please provide that and try again."
+            },
+            "passwordChange": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur de changement de mot de passe"
+            },
+            "oldPassword": {
+                "code": 102,
+                "status": "error",
+                "message": "Ancien mot de passe est incorrect"
+            },
+            "selectUserData": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur pour sélectionner les données utilisateur"
+            }
+        },
+        "resetPasswordOTP": {
+            "otp": {
+                "code": 101,
+                "status": "error",
+                "message": "otp field is required"
+            },
+            "confPassword": {
+                "code": 101,
+                "status": "error",
+                "message": "confPassword field is requied"
+            },
+            "confPasswordMatch": {
+                "code": 101,
+                "status": "error",
+                "message": "confPassword is not match"
+            },
+            "UpdateUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for update user"
+            },
+            "otpNotMatch": {
+                "code": 101,
+                "status": "error",
+                "message": "OTP code not match"
+            },
+            "findUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Error for finding user"
+            }
+        },
+        "profileApproval": {
+            "updateStatus": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur dans l'état de updatating"
+            },
+            "userApproved": {
+                "code": 106,
+                "status": "error",
+                "message": "L'utilisateur est déjà approuvé"
+            },
+            "userPending": {
+                "code": 106,
+                "status": "error",
+                "message": "L'utilisateur est déjà pending"
+            },
+            "emailNotFound": {
+                "code": 104,
+                "status": "error",
+                "message": "Envoyer introuvable de jeton"
+            }
+        },
+        "callLogs": {
+            "fieldRequired": {
+                "code": 101,
+                "status": "error",
+                "message": "Nom du client ou la date ou fromdate et sur le terrain todate est nécessaire"
+            },
+            "selectData": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur pour la sélection des données à partir des journaux d'appels"
+            }
+        },
+        "changeRegion": {
+            "code": 102,
+            "status": "error",
+            "message": "Erreur pour la région de changement"
+        },
+        "getAlluser": {
+            "code": 102,
+            "status": "error",
+            "message": "Erreur pour obtenir des données d'utilisateur"
+        },
+        "getdataFromCust": {
+            "code": 102,
+            "status": "error",
+            "message": "Erreur pour les données get de clients"
+        },
+        "enter3Char": {
+            "code": 101,
+            "status": "error",
+            "message": "entrer au moins 3 caractères"
+        },
+        "addcallLog": {
+            "salesmanName": {
+                "code": 101,
+                "status": "error",
+                "message": "Nom du vendeur est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "salesmanId": {
+                "code": 101,
+                "status": "error",
+                "message": "id vendeur est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "callType": {
+                "code": 101,
+                "status": "error",
+                "message": "callType est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "visitSite": {
+                "code": 101,
+                "status": "error",
+                "message": "visitSite est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "date": {
+                "code": 101,
+                "status": "error",
+                "message": "La date est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "salesmanContact": {
+                "code": 101,
+                "status": "error",
+                "message": "Contact vendeur est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "customerName": {
+                "code": 101,
+                "status": "error",
+                "message": "Nom du client est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "comment": {
+                "code": 101,
+                "status": "error",
+                "message": "Comment est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "location": {
+                "code": 101,
+                "status": "error",
+                "message": "l'emplacement est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "vibe": {
+                "code": 101,
+                "status": "error",
+                "message": "ambiance est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "customerContact": {
+                "code": 101,
+                "status": "error",
+                "message": "contact client est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "order": {
+                "code": 101,
+                "status": "error",
+                "message": "Order est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "contact": {
+                "code": 101,
+                "status": "error",
+                "message": "Contact est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "isCopyEmail": {
+                "code": 103,
+                "status": "error",
+                "message": "isCopyEmail est un champ obligatoire. S'il vous plaît fournir cela et essayer à nouveau."
+            },
+            "createRecord": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur lors de la création d'enregistrement"
+            },
+            "createCustomer": {
+                "code": 103,
+                "status": "error",
+                "message": "Erreur interne du serveur: erreur pour créer un nouveau client"
+            },
+            "findCustomer": {
+                "code": 103,
+                "status": "error",
+                "message": "Erreur interne du serveur: Erreur de client trouver"
+            },
+            "insLocation": {
+                "code": 103,
+                "status": "error",
+                "message": "Erreur interne du serveur: erreur pour insérer l'emplacement"
+            },
+            "findLocation": {
+                "code": 103,
+                "status": "error",
+                "message": "Erreur interne du serveur: erreur pour l'emplacement de trouver"
+            },
+            "validId": {
+                "code": 103,
+                "status": "error",
+                "message": "Erreur interne du serveur: Invalid CustomerId. CustomerId should be ObjectId"
+            }
+        },
+        "getcallbydate": {
+            "dateFormat": {
+                "code": 101,
+                "status": "error",
+                "message": "Format de la date doit être JJ-MMM-AAAA"
+            },
+            "recordNotfound": {
+                "code": 104,
+                "status": "error",
+                "message": "Enregistrement non trouvé"
+            },
+            "currentUser": {
+                "code": 102,
+                "status": "error",
+                "message": "Erreur de sélection utilisateur en cours"
+            },
+            "findCallLog": {
+                "code": 104,
+                "status": "error",
+                "message": "ne peut pas trouver journal d'appels"
+            },
+            "recordNotfoundWithDate": {
+                "code": 104,
+                "status": "error",
+                "message": "Aucun enregistrement trouvé avec la date actuelle"
+            },
+            "findDatafromcallLog": {
+                "code": 103,
+                "status": "error",
+                "message": "Erreur interne du serveur: erreur pour les données de trouver à partir de journal d'appels"
+            }
+        },
+        "getlocation": {
+            "customerLocaltionNotfound": {
+                "code": 104,
+                "status": "error",
+                "message": "Emplacement client introuvable"
+            },
+            "customerLocaltion": {
+                "code": 103,
+                "status": "error",
+                "message": "Erreur interne du serveur: erreur pour get client Lieu"
+            }
+        },
+        "internalServer": {
+            "code": 103,
+            "status": "error",
+            "message": "Erreur interne du serveur"
+        }
+    }
+}

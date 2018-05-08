@@ -1,0 +1,94 @@
+****** addcalllog
+Salesman name is missing
+Salesman id is missing
+isPhoneCall is missing
+visitSite is missing
+Date is missing
+Salesman contact is missing
+Customer name is missing
+Comment is missing
+location is missing
+vibe is missing
+Salesman name is missing
+Customer contact is missing
+Error while creating record
+Internal server error : Error for create new customer
+Internal server error : Error for find customer
+Internal server error : Error for insert location
+Internal server error : Error for find location
+
+****** gatcallbydate
+Salesman contact parameter is missing
+Date parameter is missing
+Date format must be DD-MMM-YYYY
+Record not found
+Current user region not found
+Error for selecting current user
+can not find call log
+No recorde found with current date
+Internal server Error: Error for find data from call log
+
+****** getlocation
+Customer name parameter is required
+customer Location not found
+Internal server error : Error for get customer Location
+
+****** searchcust
+Error for get data from customer
+enter atleast 3 character
+
+****** registration
+Body data can not blank
+Email is not Valid
+username field is undefined
+password field is undefined
+email field is undefined
+phone field is undefined
+region field is undefined
+Password length should be minimum 8 digit
+There is already user with this email
+Error for save new user
+Error for selecting user
+
+****** login
+Username or email field is required
+Password field is required
+Password is not Valid !
+User is not authorized
+There is no user found with provided email or username
+Error for selecting data from user 
+
+****** forgotPassword
+Error for sendding password
+There is no user found with this email id
+
+****** resetPassword
+oldPassword field is required
+newPassword field is required
+Error for password change
+old password is not valid
+Error for selecting user data
+
+****** profileApproval
+Email not for approve request
+Error for update status
+User alredy approved
+Email not found from token
+
+****** callLogs
+Customer name or date or fromdate and todate field is required
+Error for selecting data from call logs
+
+
+****** callLogsadmin
+Customer name or date or fromdate and todate field is required
+Error for selecting data from call logs
+
+****** changeRegion
+Email field is required
+Error for change region
+Email not found from token
+Error for get user data
+
+****** getAlluser
+Error for get user data

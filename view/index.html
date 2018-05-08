@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapps">
+
+<head>
+    <title>Example of Node and angular </title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- <script src="/js/angular.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/node_modules/moment/moment.js"></script> -->
+</head>
+
+<body ng-controller="myctr">
+    <div ng-init="h1='API example using MongoDB'">
+        <h1>{{h1}}</h1>
+    </div>
+    <form id="uploadForm" enctype="multipart/form-data" action="/api/addCustomer" method="post">
+        <input type="file" name="file" />
+        <input type="submit" value="Upload Image" name="submit">
+        <span id="status"></span>
+    </form>
+
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+<script>
+    $(document).ready(function() {
+
+        $('#uploadForm').submit(function() {
+            $("#status").empty().text("File is uploading...");
+            $(this).ajaxSubmit({
+
+                error: function(xhr) {
+                    status('Error: ' + xhr.status);
+                },
+
+                success: function(response) {
+                    $("#status").empty().text(response);
+                    console.log(response);
+                }
+            });
+            //Very important line, it disable the page refresh.
+            return false;
+        });
+    });
+</script>
+
+</html>

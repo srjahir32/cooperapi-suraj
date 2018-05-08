@@ -1,0 +1,86 @@
+{
+    "en": {
+        "registerToUser": {
+            "text": "Status is pending",
+            "subject": "SalesCall account request sent",
+            "html": "<p>Your request has been sent to the admin. Please wait while they approve your request.</p>"
+        },
+        "registerToAdmin": {
+            "text": "Status change",
+            "subject": "SalesCall account request accepted",
+            "html": "<p> ReplaceMe has requested permission into the app.Please open the console to accept or reject them. http://applabs.media/cooper</p>"
+        },
+        "forgotPasswordOtp": {
+            "text": "Status is pending",
+            "subject": "Cooper reset password",
+            "html": "<p>Password reset OTP number is <b> ReplaceMe </b></p>"
+        },
+        "profileApprovalEmail": {
+            "text": "Approved profile",
+            "subject": "SalesCall profile approved",
+            "html": "<p>You account has been approved. Please log into app now with the email and password you selected.</p>"
+        },
+        "rejectUserEmail": {
+            "text": "Reject profile",
+            "subject": "SalesCall profile rejected",
+            "html": "<p>Your account has been rejected.</p>"
+        },
+        "deleteUserEmail": {
+            "text": "Reject profile",
+            "subject": "Cooper profile rejected",
+            "html": "<p>Your account has been rejected.</p>"
+        },
+        "deactiveUserEmail": {
+            "text": "Deactivated profile",
+            "subject": "Cooper profile deactivated",
+            "html": "<p>You account has been deactivated.</p>"
+        },
+        "activeUserEmail": {
+            "text": "Active profile",
+            "subject": "Cooper profile active",
+            "html": "<p>You account has been active.</p>"
+        }
+    },
+    "fr": {
+        "registerToUser": {
+            "text": "Le statut est en attente",
+            "subject": "Demande de compte SalesCall envoyée",
+            "html": "<p>Votre demande a été envoyée à l'administrateur. Veuillez patienter pendant qu'ils approuvent votre demande.</p>"
+        },
+        "registerToAdmin": {
+            "text": "changement d'état",
+            "subject": "Demande de compte SalesCall acceptée",
+            "html": "<p> ReplaceMe a demandé l'autorisation dans la app.Please ouvrir la console d'accepter ou de les rejeter</p>"
+        },
+        "forgotPasswordOtp": {
+            "text": "Le statut est en attente",
+            "subject": "Cooper reset password",
+            "html": "<p>Password reset OTP number is <b> ReplaceMe </b></p>"
+        },
+        "profileApprovalEmail": {
+            "text": "Profil approuvé",
+            "subject": "SalesCall approuvé son profil",
+            "html": "<p>Votre compte a été approuvé S'il vous plaît se connecter à l'application maintenant avec l'e-mail et mot de passe que vous avez sélectionné</p>"
+        },
+        "rejectUserEmail": {
+            "text": " Rejeter le profil ",
+            "subject": " SalesCall son profil Rejeté ",
+            "html": "<p> Votre compte a été rejeté </ p>"
+        },
+        "deleteUserEmail": {
+            "text": "Reject profile",
+            "subject": "Cooper profile Rejected",
+            "html": "<p>Your account has been Rejected.</p>"
+        },
+        "deactiveUserEmail": {
+            "text": "Deactivated profile",
+            "subject": "Cooper profile Deactivated",
+            "html": "<p>You account has been deactivated.</p>"
+        },
+        "activeUserEmail": {
+            "text": "Active profile",
+            "subject": "Cooper profile Active",
+            "html": "<p>You account has been active.</p>"
+        }
+    }
+}
